@@ -1,0 +1,10 @@
+{
+    "name": "ape-space",
+    "version": "1.0.0",
+    "repository": "https://github.com/apeswapfinance/graphs",
+    "devDependencies": {
+        "@graphprotocol/graph-cli": "^0.26.0",
+        "@graphprotocol/graph-ts": "^0.24.1"
+    }
+}
+

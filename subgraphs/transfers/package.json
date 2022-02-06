@@ -1,0 +1,12 @@
+{
+    "name": "transfers",
+    "version": "1.0.0",
+    "scripts": {
+        "codegen": "graph codegen --output-dir generated/",
+        "build": "graph build",
+        "build-ipfs": "graph build --ipfs /ip4/127.0.0.1/tcp/5001",
+        "create": "graph create generated/BananaTransfers",
+        "deploy":
+          "graph deploy --ipfs http://127.0.0.1:5001 --node http://127.0.0.1:8020 generated/BananaTransfers subgraph.yaml"
+      }
+  }
