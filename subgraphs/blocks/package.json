@@ -7,6 +7,6 @@
         "build-ipfs": "graph build --ipfs /ip4/127.0.0.1/tcp/5001",
         "create": "graph create generated/blocks --node http://127.0.0.1:8020",
         "deploy":
-          "graph deploy --ipfs http://127.0.0.1:5001/ipfs/ --node http://127.0.0.1:8020 generated/blocks subgraph.yaml"
+          "graph deploy --ipfs http://127.0.0.1:5001/ --node http://127.0.0.1:8020 generated/blocks subgraph.yaml"
       }
   }
