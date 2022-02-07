@@ -3,4 +3,5 @@ type Tx @entity {
   from: Bytes!
   to: Bytes!
   value: BigInt!
+  block: BigInt!
 }

@@ -9,6 +9,7 @@ export function handleTransfer(event: Transfer): void {
   tran.to = event.params.to
   tran.from = event.params.from
   tran.value = event.params.value
+  tran.block = event.block.number
   tran.save()
 
 }
