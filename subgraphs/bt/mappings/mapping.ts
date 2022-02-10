@@ -1,5 +1,5 @@
 import { Tx } from "../generated/schema";
-import { Transfer } from "../generated/BananaTransfers/abi";
+import { Transfer } from "../generated/bt/abi";
 
 
 export function handleTransfer(event: Transfer): void {
