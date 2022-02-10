@@ -1,0 +1,6 @@
+type Tx @entity {
+  id: ID!
+  from: Bytes!
+  to: Bytes!
+  value: BigInt!
+}
